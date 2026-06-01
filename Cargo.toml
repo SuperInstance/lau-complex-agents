@@ -1,0 +1,11 @@
+[package]
+name = "lau-complex-agents"
+version = "0.1.0"
+edition = "2021"
+description = "Complex analysis and holomorphic dynamics for agents"
+license = "MIT"
+
+[dependencies]
+nalgebra = "0.33"
+num-complex = { version = "0.4", features = ["serde"] }
+serde = { version = "1", features = ["derive"] }
